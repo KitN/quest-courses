@@ -1,0 +1,388 @@
+﻿/*---------------*/
+/* Quest styling */
+/*---------------*/
+
+/* Page-wide styling. */
+body {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    font-size: 12px;
+}
+h2.ms-rteStyle-steverocks {
+    -ms-name:"Steve rocks";
+        color:green;
+}
+/* Main header block containing all the elements that share the same background and other styling. */
+#qu-headerblock {
+	padding-top: 25px;
+	margin-bottom: 15px;
+	background-color: #e2e3e4;
+}
+/* Username, site actions, search and other "stuff" in that group. */
+.ms-SPLink {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    font-size: 12px;
+	font-weight: bold;    
+}
+.ms-SPLink A:link {
+	color: #333333;
+}
+.ms-globallinks {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    padding-right: 8px;    
+}
+.ms-globallinks A {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+/* Global breadcrumb related */
+/* hide breadcrumb ... */
+#qu-headerblock .globalBreadCrumb {
+    display: none;
+}
+/* Logo related. */
+#GlobalTitleAreaImage {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+/* Top header area layout and positioning. */
+#qu-headertoprgnblock #GlobalTitleAreaImage {
+}
+#qu-headertoprgnblock .globalNav {
+    float: right;
+}
+/* Top navigation menu items. */
+.ms-topnav {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #333333;
+	background-image: none;
+	background-color: transparent;
+	border-style: none;
+}
+.ms-topnavselected {
+    border: 0;
+    background-image: none;
+	background-color: transparent;
+}
+.ms-topnavselected a {
+    color: #6a9913;
+}
+.ms-topNavFlyOuts {
+    background-color: #e2e3e4;
+}
+.ms-topNavFlyOuts a {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    color: #333333;
+    width: 100% !important;
+}
+.ms-topNavFlyOuts a:hover {
+	background-color: #e2e3e4;
+	color: #6a9913;
+}
+.ms-topNavFlyOutsHover {
+	background-color: #e2e3e4;
+	color: #6a9913;
+	width: 100%;
+}
+#qu-tabNavWrapper {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#qu-tabNavWrapper {
+	display: inline;
+	zoom: 1;
+    margin-bottom: 10px;
+}
+#qu-tabNavWrapper .tabNav {
+    float: left;
+}
+#qu-tabNavWrapper .SelfServiceTab {
+    float: right;
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #333333;
+}
+.SelfServiceTab {
+	margin-right: 10px;
+}
+.SelfServiceTab a:link, .SelfServiceTab a:visited {
+    color: #333333;
+}
+/* BEGIN: Styling for the weclome header and text in the default page content editor web part. */
+#qu-welcometitle {
+	font-size: 18pt;
+	font-style: italic;
+}
+#qu-welcometexttitle {
+    font-size: 11pt;
+    font-style:italic;
+    font-weight:bold;
+ 
+   
+}
+
+#qu-welcometext {
+    font-size: 11pt;
+    
+ 
+   
+}
+#qu-subtext {
+    font-size: 8pt;
+   
+}
+
+
+/* BEGIN: Quick Launch navigation (left-hand side). */
+.tdNav {
+	margin-left: 5px;
+    width: 185px;
+}
+div .ms-quicklaunchouter {
+	width: 150px;
+    border: none;
+    background: transparent url('quick-launch-top.gif') no-repeat;
+}
+.ms-quicklaunch table td {
+	border-style: none;
+}
+.ms-quicklaunch table.ms-navheader td,.ms-navheader2 td,.ms-quicklaunch span.ms-navheader {
+    background-color: transparent;
+    background-image: none;
+    border-style: none;
+}
+.ms-quicklaunch span.ms-navheader {
+	border: none;
+}
+.ms-quickLaunch {
+    background: none;
+    border: none;
+}
+.ms-quicklaunchheader {
+	background: none; 
+	border: none;
+}
+.ms-quicklaunchheader a,.ms-selectednav a,.ms-unselectednav a {
+    color:#003399;
+    text-decoration:none;
+}
+.ms-quicklaunchheader a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.ms-quicklaunchheader {
+    display: none;
+}
+.ms-navsubmenu1 {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+    background: none;
+    border: none;
+}
+.ms-navsubmenu2 {
+    width:100%;
+    background-color: transparent;
+    margin-bottom:6px;
+    background: none;
+    border: none;
+}
+.ms-recyclebin a {
+    display: none;
+}
+div.ms-quicklaunch table.ms-recyclebin {
+    display: none;
+}
+div.ms-quicklaunchouter div.ms-quicklaunch {
+	background-color: transparent;
+	background-image: none;
+	padding-bottom: 18px;
+
+}
+table.ms-navSubMenu1 td, div.ms-quicklaunch table tr td {
+	border: none;
+}
+table.ms-navitem,span.ms-navitem, table.ms-navitem td {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    font-size: 12px;
+    background-image:url("/_layouts/images/navBullet.gif");
+    background-repeat:no-repeat;
+    background-position:top left;
+    padding:3px 6px 4px 17px;
+    background-image: none;
+}
+table.ms-navheader td a {
+    display: block;
+    background-color: transparent;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    margin-left: -2px;
+    margin-bottom: -4px;
+}
+table.ms-navheader td a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #333333;
+}
+div.ms-quicklaunch table.ms-navsubmenu2 {
+ margin-bottom: 0px;
+}
+.ms-quicklaunch table.ms-selectednav {
+	border: none;
+	background: none;
+	margin: 0px;
+}
+.ms-quicklaunch table.ms-selectednav td a {
+    color: #003399;
+    border: none;
+    margin-right: -4px
+}
+.ms-quicklaunch table.ms-selectednav td {
+    background: none;
+    border :none;
+    background: transparent url('quick-launch-body.gif') repeat-x;
+	padding:3px 6px 4px 17px;
+}
+div.ms-quicklaunch table.ms-navsubmenu2 td,.ms-quicklaunch span.ms-navheader,.ms-quicklaunch table.ms-selectednavheader td {
+	background: transparent url('quick-launch-body.gif') repeat-x;
+}
+div.ms-quicklaunch table.ms-navsubmenu2 td a {
+    display: block;
+    font-weight: bold;
+    background-color: transparent;
+    margin-left: -13px;
+    margin-bottom: -6px;
+    padding-left: 22px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+div.ms-quicklaunch table.ms-navsubmenu2 td a:link {
+    text-decoration: underline;
+    color: #6a9913;
+}
+div.ms-quicklaunch table.ms-navsubmenu2 td a:visited {
+    text-decoration: underline;
+    color: #6a9913;
+}
+div.ms-quicklaunch table.ms-navsubmenu2 td a:hover {
+    text-decoration: none;
+    color: #6a9913;
+}
+.ms-navheader a {
+    font-size: 12px !important;
+	font-weight: bold;
+	color: #333333;
+}
+/* END: Quick Launch */
+
+/* Main content/body area. */
+.ms-bodyareaframe {
+    border-style: none;
+}
+/* Page related (e.g. breadcrumb bar) */
+.ms-pagebreadcrumb {
+    background: none;
+}
+.ms-pagebreadcrumb a {
+	background: none;
+}
+.ms-propertysheet th {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+}
+.ms-propertysheet {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+}
+.ms-propertysheet a {
+    color: #6a9913;
+}
+/* Web part related. */
+.ms-WPBody {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+}
+.ms-WPBody a:link {
+	color: #6a9913;
+}
+.ms-WPTitle {
+	/* web part titles */
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.ms-WPTitle a:link, .ms-WPTitle a:visited, .ms-WPTitle a:hover {
+    color: #6a9913;
+}
+.ms-WPHeader td {
+    border-style: none;
+}
+.ms-partline {
+	background-color: #e2e3e4;
+}
+
+.ms-WPBorder, .ms-WPBorderBorderOnly{ 
+border-color:#6a9913; 
+border-width:1px; 
+border-style:solid; 
+} 
+.ms-vb {
+	/* for web part contents ... it seems */
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif; 
+      
+}
+.ms-vb a:link, .ms-vb a:visted {
+    color: #6a9913;
+	text-decoration: underline;	
+}
+.ms-vb a:hover {
+    color: #6a9913;
+	text-decoration: none;
+}
+a.ms-addnew {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif !important;
+    color: #6a9913;
+}
+/* View/table headers. */
+.ms-vh {
+    background-image: none;
+    background-color: #f0f1f1;
+    border-bottom: 1px solid #e2e3e4;
+}
+.ms-vh2 {
+    background-image: none;
+    background-color: #f0f1f1;
+    border-bottom: 1px solid #e2e3e4;
+}
+.ms-vh2-nograd {
+    background-image: none;
+    background-color: #f0f1f1;
+    border-bottom: 1px solid #e2e3e4;
+}
+.ms-vh-icon {
+    background-image: none;
+    background-color: #f0f1f1;
+    border-bottom: 1px solid #e2e3e4;
+}
+/* List view related (e.g. toolbars, etc) */
+.ms-menutoolbar {
+    background-image: none;
+    background-color: #e2e3e4;
+    border-bottom: 1px solid #333333;
+}
+.ms-menutoolbar td {
+    border-bottom: none;
+}
+.ms-menutoolbar td a {
+    font-family: 'Myriad Pro', 'Lucinda Grande','Trebuchet MS', Arial, Verdana, sans-serif !important;
+    color: #6a9913;
+}
+.ms-separator IMG {
+    background-color: #333333;
+}
+/* Footer */
+#footer {
+    display: none;
+}
